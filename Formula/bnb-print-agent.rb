@@ -8,12 +8,12 @@ class BnbPrintAgent < Formula
   # `version` is PRINT_AGENT_VERSION, which is what `brew upgrade` compares.
   if Hardware::CPU.arm?
     url "https://api.beefandbasil.co/downloads/print-agent/bnb-print-agent-macos-arm64"
-    sha256 "f02fe156c49f30606755e64260837f4482ee7e438df142c841a7e85efdb51b0b"
+    sha256 "bbf45fd7acd10ac3cc058169ae4e9ff988a9902fa8ec6965f4202652968643b1"
   else
     url "https://api.beefandbasil.co/downloads/print-agent/bnb-print-agent-macos-x64"
-    sha256 "ecb6e1e9bc6885c1027c3dc449e1aa9b381a450217f517f1181061ceb90aefe8"
+    sha256 "dc217154b6628081f148d3a1a57eae6e6aab7e3e8d56c5cbf059bad7b819cb27"
   end
-  version "2.3.0"
+  version "2.3.1"
 
   depends_on :macos
 
